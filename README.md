@@ -6,7 +6,7 @@ SVG file handling
 
 Bootstrap navbar
 
-element alignment
+Element alignment
 
 Reference:
 

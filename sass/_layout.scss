@@ -47,7 +47,6 @@ header {
   flex-direction: column;
   -ms-flex-align: center;
   width: 100%;
-  min-height: 80rem;
   background-color: rgb(13, 145, 198);
 }
 
@@ -59,11 +58,6 @@ header {
 
 footer {
   width: 100%;
-  min-height: 3rem;
-  background-color: rgb(58, 56, 56);
-  padding: 1rem;
-
-  .icons {
-    display: flex;
-  }
+  min-height: 6rem;
+  background-color: rgb(184, 184, 184);
 }
