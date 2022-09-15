@@ -154,6 +154,25 @@ footer {
   .testimonials {
     .test {
       padding: 3rem 5rem;
+
+      .text {
+        max-height: 212px;
+        overflow: scroll;
+        overflow-x: hidden;
+      }
+
+      .text::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      .text::-webkit-scrollbar-track {
+        border-radius: 5px;
+      }
+
+      .text::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: rgb(79, 79, 79);
+      }
     }
   }
 

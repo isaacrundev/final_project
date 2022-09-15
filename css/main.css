@@ -200,6 +200,21 @@ footer .brand {
   .testimonials .test {
     padding: 3rem 5rem;
   }
+  .testimonials .test .text {
+    max-height: 212px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .testimonials .test .text::-webkit-scrollbar {
+    width: 5px;
+  }
+  .testimonials .test .text::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  .testimonials .test .text::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgb(79, 79, 79);
+  }
   .contact .contact_form form #button {
     width: 100%;
     height: 3.5rem;
