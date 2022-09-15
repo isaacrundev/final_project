@@ -64,10 +64,14 @@ footer {
 @media only screen and (max-width: 768px) {
   .home {
     background-image: url("/img/pexels-fabrizio-verrecchia-298018.jpg");
-    opacity: 80%;
+    opacity: 90%;
+    background-position: center;
   }
   .home #background-video {
     display: none;
+  }
+  .features {
+    flex-direction: column;
   }
 }
 .home p {
