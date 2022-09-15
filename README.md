@@ -1,14 +1,12 @@
-# final_project
-
 Live website: https://stellular-alpaca-31a3ea.netlify.app/
 
-Challenges:
 
-SVG file handling
+Challenges:
 
 Bootstrap navbar
 
 Element alignment
+
 
 Reference:
 
