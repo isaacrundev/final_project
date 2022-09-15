@@ -191,6 +191,9 @@ footer .brand {
 }
 
 @media only screen and (max-width: 768px) {
+  .home .input_button {
+    padding: 1rem;
+  }
   .features {
     flex-direction: column;
   }
