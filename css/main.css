@@ -61,12 +61,22 @@ footer {
   background-color: rgb(184, 184, 184);
 }
 
+@media only screen and (max-width: 768px) {
+  .home {
+    background-image: url("/img/pexels-fabrizio-verrecchia-298018.jpg");
+    opacity: 80%;
+  }
+  .home #background-video {
+    display: none;
+  }
+}
 .home p {
   color: white;
   font-size: 3rem;
   font-weight: bold;
   font-family: "Noto Sans", sans-serif;
   padding: 3rem;
+  text-align: center;
 }
 .home label {
   color: yellow;
@@ -106,7 +116,7 @@ footer {
 }
 
 .testimonials .test {
-  padding: 3rem;
+  padding: 3rem 10rem;
   display: flex;
   flex-direction: row;
 }
@@ -151,9 +161,11 @@ footer {
 .contact .contact_form form textarea {
   width: 100%;
   height: 10rem;
+  resize: none;
 }
 .contact .contact_form form #button {
   width: 3rem;
+  border-radius: 4px;
 }
 
 footer {

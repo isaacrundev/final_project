@@ -61,3 +61,14 @@ footer {
   min-height: 6rem;
   background-color: rgb(184, 184, 184);
 }
+
+@media only screen and (max-width: 768px) {
+  .home {
+    background-image: url("/img/pexels-fabrizio-verrecchia-298018.jpg");
+    opacity: 80%;
+
+    #background-video {
+      display: none;
+    }
+  }
+}
