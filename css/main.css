@@ -70,9 +70,6 @@ footer {
   .home #background-video {
     display: none;
   }
-  .features {
-    flex-direction: column;
-  }
 }
 .home p {
   color: white;
@@ -158,6 +155,7 @@ footer {
   padding: 1rem;
   display: inline-block;
   width: 40%;
+  min-width: 25rem;
 }
 .contact .contact_form form input {
   width: 100%;
@@ -190,6 +188,19 @@ footer .icons .icon img {
 }
 footer .brand {
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+  .testimonials .test {
+    padding: 3rem 5rem;
+  }
+  .contact .contact_form form #button {
+    width: 100%;
+    height: 3.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
