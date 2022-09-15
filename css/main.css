@@ -191,8 +191,14 @@ footer .brand {
 }
 
 @media only screen and (max-width: 768px) {
+  .home p {
+    padding: 4rem;
+  }
+  .home label {
+    padding: 0.5rem;
+  }
   .home .input_button {
-    padding: 1rem;
+    padding: 2rem;
   }
   .features {
     flex-direction: column;
