@@ -25,29 +25,33 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  // background-image: url("/img/pexels-mentatdgt-1185433.jpg");
-  // opacity: 75%;
 }
 
 .features {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   background-color: white;
   min-height: 30rem;
-  .feature {
-    padding: 1rem;
-    inset: 0;
-    margin: auto;
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    .feature {
+      padding: 1rem;
+      inset: 0;
+      margin: auto;
+    }
   }
 }
 
 .testimonials {
-  display: flex;
-  flex-direction: column;
-  -ms-flex-align: center;
   width: 100%;
   background-color: rgb(13, 145, 198);
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+  }
 }
 
 .contact {

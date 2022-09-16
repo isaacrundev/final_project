@@ -29,24 +29,28 @@ header {
 }
 
 .features {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   background-color: white;
   min-height: 30rem;
 }
-.features .feature {
+.features .items {
+  display: flex;
+  flex-direction: row;
+}
+.features .items .feature {
   padding: 1rem;
   inset: 0;
   margin: auto;
 }
 
 .testimonials {
+  width: 100%;
+  background-color: rgb(13, 145, 198);
+}
+.testimonials .items {
   display: flex;
   flex-direction: column;
   -ms-flex-align: center;
-  width: 100%;
-  background-color: rgb(13, 145, 198);
 }
 
 .contact {
@@ -99,44 +103,60 @@ footer {
   border-radius: 0px 5px 5px 0px;
 }
 
-.features .feature .icon {
+.features .title p {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+}
+.features .items .feature .icon {
   width: 6rem;
   height: 6rem;
   overflow: hidden;
   margin: 0 auto;
 }
-.features .feature .title {
+.features .items .feature .title {
   font-size: 2rem;
   color: black;
   text-align: center;
 }
-.features .feature .paragraph {
+.features .items .feature .paragraph {
   font-size: 1rem;
   color: black;
   text-align: center;
 }
 
-.testimonials .test {
-  padding: 3rem 10rem;
+.testimonials .title {
+  margin: 0 auto;
+}
+.testimonials .title p {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.testimonials .items .test {
+  padding: 2rem 10rem;
   display: flex;
   flex-direction: row;
 }
-.testimonials .test .profile .image {
+.testimonials .items .test .profile .image {
   width: 10rem;
 }
-.testimonials .test .profile .image img {
+.testimonials .items .test .profile .image img {
   width: 100%;
 }
-.testimonials .test .profile .name {
+.testimonials .items .test .profile .name {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
 }
-.testimonials .test .text {
+.testimonials .items .test .text {
   width: 15rem;
 }
-.testimonials #test-2 {
+.testimonials .items #test-2 {
   justify-content: end;
 }
 
@@ -200,24 +220,24 @@ footer .brand {
   .home .input_button {
     padding: 2rem;
   }
-  .features {
+  .features .items {
     flex-direction: column;
   }
-  .testimonials .test {
+  .testimonials .itemms .test {
     padding: 3rem 5rem;
   }
-  .testimonials .test .text {
+  .testimonials .itemms .test .text {
     max-height: 212px;
     overflow: scroll;
     overflow-x: hidden;
   }
-  .testimonials .test .text::-webkit-scrollbar {
+  .testimonials .itemms .test .text::-webkit-scrollbar {
     width: 5px;
   }
-  .testimonials .test .text::-webkit-scrollbar-track {
+  .testimonials .itemms .test .text::-webkit-scrollbar-track {
     border-radius: 5px;
   }
-  .testimonials .test .text::-webkit-scrollbar-thumb {
+  .testimonials .itemms .test .text::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: rgb(79, 79, 79);
   }
